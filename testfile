@@ -1,0 +1,84 @@
+package pack
+
+object obj {
+
+	def main(args:Array[String]):Unit={
+
+			println("========STARTED=========")
+			println
+
+			val  a  = 2
+			
+			println(a)
+			println
+			
+			
+			val b = a + 2
+			
+			println(b)
+			println
+
+			
+			val c = "zeyobron"
+			println(c)
+			println
+			
+			
+			val lisin = List( 1 , 2 , 3 , 4)
+			println(lisin)
+			println
+			
+			
+			
+			val add  = lisin.map( x => x + 2)
+			println(add)
+			println
+			
+			
+			val mul = lisin.map( x => x * 10)
+			println(mul)
+			println
+			
+			
+			val fil = lisin.filter( x => x > 2)
+			println(fil)
+			println
+			
+			println("================================")
+			
+			
+			val lisstr = List("zeyobron","zeyo","tera")
+			println(lisstr)
+			println
+			
+			
+			
+			val concat = lisstr.map( x => x + " Analytics")
+			println(concat)
+			println
+			
+			
+			val filstr = lisstr.filter( x => x.contains("zeyo"))
+			println(filstr)
+			println
+			
+			
+			val replace = lisstr.map( x => x.replace("zeyo","exa"))
+			println(replace)
+			println
+			
+			
+			val lisfl = List("A~B","C~D","E~F")
+			println(lisfl)
+			println
+			
+			
+			val flatten = lisfl.flatMap( x => x.split("~"))
+				println(flatten)
+			println		
+			
+			
+			
+
+	}
+}
